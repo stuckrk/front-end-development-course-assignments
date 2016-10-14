@@ -1,0 +1,35 @@
+body {
+    background: black;
+}
+
+h1 {
+    color: white;
+}
+
+.image {
+    padding: 40px;
+    margin: 40px auto;
+    border: 2px solid white;
+    width: 300px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+div:nth-child(2) {
+    background-color: red;
+}
+
+div:nth-child(3) {
+    background-color: blue;
+}
+
+div:nth-child(4) {
+    background-color: yellow;
+}
+
+div:nth-child(5) {
+    background-color: magenta;
+}
