@@ -17,3 +17,12 @@ hr {
     clear: both;
 }
 
+.navigation-link {
+    background-color: #000000;
+    color: #ffffff;
+    display: block;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
