@@ -40,3 +40,19 @@ hr {
     padding: 10px;
 }
 
+.main-content {
+    float: left;
+    width: 70%;
+}
+
+.side-bar {
+    background-color: #e7e7e7;
+    float: right;
+    width: 20%;
+}
+
+.content-footer {
+    border-top: 1px solid #000000;
+    clear: both;
+    padding: 10px;
+}
