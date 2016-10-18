@@ -1,1 +1,19 @@
+body {
+    width: 960px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #777777;
+    border-bottom: 1px solid #777777
+}
+
+h2 {
+    color: #aa0000;
+    border-bottom: 1px dashed #aa0000;
+}
+
+hr {
+    clear: both;
+}
 
