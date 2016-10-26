@@ -3,20 +3,35 @@ Using the Chrome or Safari Dev tools open up the webpage http://training.uark.ed
 1. What font family is being used for the paragraph below 'About IT Readiness'?
 Answer:
 
+    'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 2. What heading tag (h1,h2,h3,h4,h5,h6) is being used for 'About IT Readiness'?
 Answer:
 
+    h2
+
 3. What is the bottom margin value for 'About IT Readiness'?
-Answer:
+Answer:  
+
+    margin-bottom: 10px;
 
 4. What color value is the text in the unordered list below 'Program Partners'?
 Answer:
 
+    color: #620010;
+
+
 5. What heading tag (h1,h2,h3,h4,h5,h6) are they using for the 'Program Partners' in the list?
 Answer:
+
+    h4
 
 6. What is the border radius value for the 'FAQ' and 'Application Process' buttons at the bottom of 'About IT Readiness'?
 Answer:
 
+    border-radius: 4px;
+
 7. What is the background color for the bottom footer of the page?
 Answer:
+
+    background-color: #f2f2f4;

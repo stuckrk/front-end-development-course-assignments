@@ -1,1 +1,110 @@
+body {
+    width: 960px;
+    background-color: #e9e9e9;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    margin: 0px auto;
+}
 
+.maincontent {
+    background-color: #fff;
+}
+
+.header {
+    color: #fff;
+    background-color: #00aaaa;
+    text-shadow: 10px 10px 20px #000000;
+    height: 128px;
+    padding: 15px;
+    margin: 15px 0px;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+    padding: 0px 2.5%;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: #aa0000;
+}
+
+.sidebar ul li {
+    padding: 2px;
+    list-style-type: square;
+}
+
+.content {
+    width: 70%;
+    float: left;
+    padding: 0px 2.5%;
+}
+
+.content h1, .content h2, .content h3 {
+    color: #aa0000;
+}
+
+.content em {
+    color: #55aa00;
+}
+
+.content a {
+    text-decoration: none;
+    color: #aa0000;
+}
+
+.content ol li {
+    list-style-type: upper-roman;
+}
+
+.images li {
+    list-style-type: none;
+    float: left;
+    padding: 10px 5px;
+    
+}
+
+.images li img {
+    box-shadow: 2px 2px 2px 0 #000000;
+}
+
+.images li h6 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav {
+    margin: 10px auto;
+    width: 930px;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px 20px;
+    list-style-type: none;
+}
+
+.nav li a {
+    color: #aa0000;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.clear {
+    clear: both;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
