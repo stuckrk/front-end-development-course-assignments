@@ -41,9 +41,12 @@ function update() {
     
     document.getElementById("error-list").innerHTML = html;
     
+    var fullName = firstName + " " + lastName;
+    
+    var popUp = "Thank you, " + fullName;
     
     if (firstName !== "" && lastName !== "" && emailAddress !== "") {
-        alert("Submitted");
+        alert(popUp);
     }
     
     var user = {
