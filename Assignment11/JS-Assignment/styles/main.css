@@ -31,6 +31,10 @@ section{
     color:#ff0000;
 }
 
+h2 {
+    text-align: center;
+}
+
 .control-panel{
     width:75%;
     margin:20px auto;
