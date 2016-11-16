@@ -5,4 +5,31 @@
 body {
     width:500px;
     margin:20px auto;
+    font-size: 20px;
+}
+
+.inputbox {
+    padding: 20px;
+}
+
+.inputbox input {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.buttons button {
+    font-size: 20px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.errors {
+    color: red;
+}
+
+.invalid {
+    background-color: red; 
 }
