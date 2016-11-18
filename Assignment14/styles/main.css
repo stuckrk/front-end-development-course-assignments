@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width:1000px;
+    margin:20px auto;
+    font-size: 20px;
+}
+
+.inputs .right {
+    float: right;
+    width: 500px;
+}
+
+.inputs .left {
+    float: left;
+    width: 500px;
+}
+
+.inputs .center {
+    clear: both;
+}
+
+.inputs .checkboxgroup {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+
+}
+
+.inputbox {
+    padding: 20px;
+}
+
+.inputbox input, #aboutMe, #timezone {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.buttons button {
+    font-size: 20px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.errors {
+    color: red;
+}
+
+.invalid {
+    background-color: red; 
+}

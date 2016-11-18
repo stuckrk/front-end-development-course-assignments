@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Assignment 12</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body>
+       <section id="message">
+
+        </section>
+        <form method="post">
+            <section class="inputs">
+                <div class="left">
+                    <div class="inputbox">
+                        <label for="firstName">First Name</label> 
+                        <br>
+                        <input type="text" id="firstName" name="First Name" placeholder="First Name" maxlength="20" required />
+                    </div>
+                    <div class="inputbox">
+                        <label for="lastName">Last Name</label> 
+                        <br>
+                        <input type="text" id="lastName" name="Last Name" placeholder="Last Name" maxlength="20" required />
+                    </div>
+                    <div class="inputbox">
+                        <label for="emailAddress">Email Address</label>
+                        <br>
+                        <input type="email" id="emailAddress" name="Email Address" placeholder="Email Address" required />
+                    </div>
+                    <div class="inputbox">
+                        <label for="password">Password</label>
+                        <br>
+                        <input type="password" id="password" name="Password" placeholder="Password" required />
+                    </div>
+                    <div class="inputbox">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <br>
+                        <input type="password" id="confirmPassword" name="Confirm Password" placeholder="Confirm Password" required />
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="inputbox">
+                        <label for="timezone">Time Zone</label>
+                        <br>
+                        <select id="timezone" required >
+                            <option value="1"></option>
+                            <option value="2">Eastern</option>
+                            <option value="3">Central</option>
+                            <option value="4">Mountain</option>
+                            <option value="4">Pacific</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="inputbox">
+                        <label for="aboutMe">About You</label>
+                        <br>
+                        <textarea name="About You" id="aboutMe" required ></textarea>
+                    </div>
+                    <div class="inputbox">
+                        <label for="email">Website</label>
+                        <input type="url" name="Email" placeholder="Email" id="email" required />
+                    </div>
+                    <div class="inputbox">
+                        <label for="age">Age</label>
+                        <input type="number" name="Age" placeholder="Age" id="age" min="10" max="100" required />
+                    </div>
+                    <div class="inputbox">
+                        <label  for="search">Search Name</label>
+                        <input type="search" name="Search" placeholder="Search" id="search" required />
+                    </div>
+                </div>
+                <br>
+                <div class="center">
+                    <div class="checkboxgroup">
+                       <label for="terms">
+                           <input type="checkbox" name="terms" id="terms" value="terms">
+                           Accept Terms and Conditions</label>
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" id="btnSubmit">Submit</button>
+                        <button type="reset" id="btnReset">Reset</button>
+                    </div>
+                </div>
+            </section>
+        </form>
+        
+        <!-- <section class="control-panel">
+            <input type="button" value="Update Values" id="btnUpdate" />
+        </section> -->
+    </body>
+
+</html>
