@@ -1,3 +1,186 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background: #ccc;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content {
+    background: #fff;
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    background: #a00;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: 400;
+    margin: 0px;
+}
+
+header h2 {
+    margin: 0px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Navigation */
+
+nav {
+    background: maroon;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    float: left;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none; 
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover, nav ul li:hover {
+    text-decoration: underline;
+    background: #700000;
+}
+
+.search {
+    float: right;
+    padding: 10px;
+}
+
+.search input {
+    border: none;
+    background: #a00;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Main Content */
+
+.info {
+    padding: 20px;
+}
+
+.info img {
+    float: left;
+}
+
+.info h1 {
+    text-align: center;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+/* Form */
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.inputbox {
+    font-size: 18px;
+    padding: 5px;
+    clear: both;
+}
+
+.inputbox input, .inputbox select, .inputbox textarea {
+    font-size: 18px;
+    padding: 10px;
+    float: right;
+    width: 70%;
+    border: 1px solid #a00;
+    color: #a00;
+}
+
+.inputbox label {
+    float: left; 
+    width: 30%;
+}
+
+.terms {
+    clear: both;
+    padding: 10px;
+}
+
+.buttons {
+    text-align: center;
+    padding: 20px;
+}
+
+.buttons button {
+    font-size: 18px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #999;
+    overflow: hidden;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer ul li {
+    display: inline-block;
+    float: left;
+    padding: 10px 20px;
+}
+
+footer ul li a {
+    color: #333;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 
+    
+}
+
+/* Javascript Stuffs */
+
+.error {
+    list-style-type: disc;
+    color: #a00;
+    margin-left: 30px;
+}
+
+.invalid  {
+    border: 1px solid red;
+    background: #ff9191;
+}
+
+
+
+

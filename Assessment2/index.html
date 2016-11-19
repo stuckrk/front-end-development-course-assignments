@@ -7,11 +7,78 @@
     </head>
 
     <body>
-        <form>
-            <button id="btnSubmit" type="button">Submit</button>
-            <button type="reset">Reset</button>
-        </form>
-        <script src="scripts/main.js"></script>
+        <div class="content">
+            <header>
+                <h1>Bioplex</h1>
+                <h2>Fusce a congue nunc. Proin iaculis accumsan mi, eget sodales orci.</h2>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="search">
+                    <input type="search" name="Search">
+                    <button id="btnSearch" type="button">Search</button>
+                </div>
+                <div class="clear"></div>
+            </nav>
+            <section class="info">
+                <h1>Blender Sweepstakes</h1>
+                <img src="images/blender.jpg" alt="blender" />
+                <p>You are about to enter to win a brand new Bioplex SuperMax 1900. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
+            </section>
+            <div class="clear"></div>
+            <form>
+                <div id="messages"></div>
+                <div class="inputbox">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="First Name" placeholder="First Name" required />
+                </div>
+                <div class="inputbox">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="Last Name" placeholder="Last Name" required />
+                </div>
+                <div class="inputbox">
+                    <label for="emailAddress">Email Address</label>
+                    <input type="email" id="emailAddress" name="Email Address" placeholder="Email Address" required />
+                </div>
+                <div class="inputbox">
+                    <label for="findUs">How did you find us?</label>
+                    <select name="How did you find us" id="findUs">
+                        <option value=""></option>
+                        <option value="2">Word of Mouth</option>
+                        <option value="3">Facebook</option>
+                    </select>
+                </div>
+                <div class="inputbox">
+                    <label for="whyNeed">Why do you need this blender?</label>
+                    <textarea id="whyNeed" name="Why you need this" placeholder="Why you need this" required></textarea>
+                </div>
+                <div class="terms">
+                    <input type="checkbox" name="Terms and Conditions" id="termsConditions">
+                    <label for="termsConditions">By checking this box you accept our terms and conditions.</label>
+                </div>
+                <div class="buttons">
+                    <button id="btnSubmit" type="button">Submit</button>
+                    <button id="btnReset" type="reset">Reset</button>
+                </div>
+            </form>
+            <footer>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </footer>
+            <script src="scripts/main.js"></script>
+        </div>
+
     </body>
 
 </html>
