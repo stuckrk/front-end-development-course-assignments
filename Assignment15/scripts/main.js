@@ -46,8 +46,7 @@ $(document).ready(function(){
     $('#btnCopyValues').on('click', update6);
     
     function update6() {
-        var copiedValue = $('#copy-text').val()
-        console.log(copiedValue)
+        var copiedValue = $('#copy-text').val();
         $('#paste-text').val(copiedValue);
     }
 });
