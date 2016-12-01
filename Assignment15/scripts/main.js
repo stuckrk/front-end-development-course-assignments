@@ -10,6 +10,7 @@ $(document).ready(function(){
 
     }
 
+
     ///Part 2
 
     $('#btnTwo').on('click', update2);
@@ -28,6 +29,7 @@ $(document).ready(function(){
 
     ///Part 4
 
+<<<<<<< HEAD
     $('#btnCopyHtml').on('click', function() {
         var copiedHtml = $('.copy-html').html();
         $('.paste-html').html(copiedHtml);
@@ -51,4 +53,7 @@ $(document).ready(function(){
         var copiedValue = $('#copy-text').val();
         $('#paste-text').val(copiedValue);
     }
+=======
+
+>>>>>>> uagc-it-readiness/master
 });
