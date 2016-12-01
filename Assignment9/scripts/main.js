@@ -2,14 +2,14 @@
 
 /*******Part 1***********/
 
-var name = "Rachel Stuckey"
+var name = "Rachel Stuckey";
 document.getElementById('partOne').innerHTML = name;
 
 /*******Part 2***********/
 
 var foo = "i forgot to do this";
 
-foo = "This is not an integer"
+foo = "This is not an integer";
 
 document.getElementById('partTwo').innerHTML = foo;
 
@@ -32,7 +32,7 @@ document.getElementById('partFour').innerHTML = fullName;
 
 /*******Part 5***********/
 
-var myHtml = ""
+var myHtml = "";
 
 myHtml += "<h2>Title</h2>";
 myHtml += "<p>Lorem ipsum dolor</p>";
@@ -45,14 +45,14 @@ document.getElementById('partFive').innerHTML = myHtml;
 /*******Part 6***********/
 
 
-var part6Number =getRandomNumber(); 
+var part6Number = getRandomNumber(); 
 
 var part6Result;
 
 if (part6Number > 50) {
-    part6Result = "Above 50"
+    part6Result = "Above 50";
 } else {
-    part6Result = "Below or equal to 50"
+    part6Result = "Below or equal to 50";
 }
 
 document.getElementById("part6Number").innerHTML = part6Number;
@@ -63,13 +63,13 @@ var part7Number = getRandomNumber();
 var part7Result;
 
 if (part7Number < 25) {
-    part7Result = "Below 25"
+    part7Result = "Below 25";
 } else if (part7Number >= 25 && part7Number < 50) {
-    part7Result = "Between 25 and 50"
+    part7Result = "Between 25 and 50";
 } else if (part7Number >= 50 && part7Number < 75) {
-    part7Result = "Between 50 and 75"
+    part7Result = "Between 50 and 75";
 } else {
-    part7Result = "Above 75"
+    part7Result = "Above 75";
 }
 
 document.getElementById("part7Number").innerHTML = part7Number;

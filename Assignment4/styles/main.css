@@ -1,80 +1,16 @@
 body {
     width: 960px;
+    background-color: #ffffff;
     margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: #777777;
-    border-bottom: 1px solid #777777
+    border-bottom: 1px solid #777;
+    color: #777;
 }
 
 h2 {
+    border-bottom: 1px dotted #aa0000;
     color: #aa0000;
-    border-bottom: 1px dashed #aa0000;
-}
-
-hr {
-    clear: both;
-}
-
-.navigation-link {
-    background-color: #000000;
-    color: #ffffff;
-    display: block;
-    float: left;
-    margin: 20px;
-    padding: 20px;
-    text-decoration: none;
-}
-
-.image-list {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px; 
-}
-
-.gallery-image {
-    display: block;
-    float: left;
-    margin: 10px;
-    padding: 10px;
-}
-
-.main-content {
-    float: left;
-    width: 70%;
-}
-
-.side-bar {
-    background-color: #e7e7e7;
-    float: right;
-    width: 20%;
-}
-
-.content-footer {
-    border-top: 1px solid #000000;
-    clear: both;
-    padding-top: 10px;
-}
-
-.image-list2 {
-    padding: 0px;
-    margin: 0px;
-    list-style-type: none;
-}
-
-.image-list2 li {
-    float: left;
-    padding: 10px;
-    margin: 10px;
-}
-
-.image-list2 img {
-    display: block;
-    width: 100px;
-    height: 100px;
-}
-
-.image-list2 h4 {
-    text-align: center;
 }

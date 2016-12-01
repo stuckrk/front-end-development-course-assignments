@@ -3,7 +3,6 @@
 
 
 
-
 /*******Part 2***********/
 var foo = "This is a String";
 
