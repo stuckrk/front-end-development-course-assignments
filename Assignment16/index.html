@@ -24,8 +24,29 @@
                 <li>Any hyperlink with a <strong>href</strong> that <strong>contains <em>mart</em></strong></li>
             </ol>
             <style>
+                /* 1 */ 
                 .part-1 a[target] {
                     color: blue;
+                }
+                /* 2 */ 
+                .part-1 input[type="text"] {
+                    background-color: pink;
+                }
+                /* 3 */ 
+                .part-1 input[type="checkbox"] {
+                    background-color: yellow;
+                }
+                /* 4 */ 
+                .part-1 a[href^="https"] {
+                    color: magenta;
+                }
+                /* 5 */ 
+                .part-1 a[href$=".edu"] {
+                    color: green;
+                }
+                /* 6 */ 
+                .part-1 a[href*="mart"] {
+                    color: red;
                 }
             </style>
             <section class="part-1">
