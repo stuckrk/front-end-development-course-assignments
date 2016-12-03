@@ -24,7 +24,7 @@ $(document).ready(function () {
     function update23() {
         $('.display-basic').toggle();
     }
-    
+                    
 /// Part 3
     
     function showPart3() {
