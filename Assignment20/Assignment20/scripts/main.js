@@ -73,8 +73,13 @@ $(document).ready(function() {
             var second = inputAnswer.get(0);
 
             var answers = $('#append');
-            answers.append('<div class = "clear"></div><hr><li><p>' + second.value + '</p><div class = "userAnswer"><img src="http://lorempixel.com/50/50/people/3"/><h4>' + first.value + '</h4></div></li>');
+           /* answers.append('<div class = "clear"></div><hr><li><p>' + second.value + '</p><div class = "userAnswer"><img src="http://lorempixel.com/50/50/people/3"/><h4>' + first.value + '</h4></div></li>');
             
+            */
+            var li = $('<div class = "clear"></div><hr><li><p>' + second.value + '</p><div class = "userAnswer"><img src="http://lorempixel.com/50/50/people/3"/><h4>' + first.value + '</h4></div></li>')
+            answers.append(li)
+            li.hide().slideDown();
+
             var activityLog = $('#prepend');
             activityLog.prepend('<li>' + first.value + ' responded </li>');
 
