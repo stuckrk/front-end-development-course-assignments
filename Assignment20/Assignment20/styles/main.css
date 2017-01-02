@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #e3e3e3;
+    width: 960px;
+    margin: 0 auto;
+    color: #5a5a5a;
+}
+
+.main-body {
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #aa0000;
+}
+
+/* Nav */
+
+nav {
+    background: #620010;
+    padding: 5px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li a {
+    background: white; 
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fl {
+    float: left;
+}
+
+.socialMedia {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/* nav li a {
+    padding: 5px 10px;
+    border: 2px solid #620010;
+    border-radius: 5px;
+}
+*/
+
+nav li a:hover {
+    text-decoration: underline;
+}
+ 
+
+/* Question */
+
+h1, h2, h3, h4 {
+    color: #620010;
+}
+
+.question {
+    float: left;
+    width: 70%;
+    padding: 10px;
+}
+
+.question h1 {
+    margin: 0px;
+    border-bottom: 1px solid #620010;
+    padding: 2.5px;
+}
+
+.userQuestion {
+    float: left;
+    width: 18%;
+    border: 1px solid #620010;
+    border-radius: 5px;
+    margin: 40px 20px;
+    padding: 5px;
+}
+
+.userQuestion img {
+    height: 100px;
+    float: left;
+    border: 1px solid #620010;
+}
+
+.userQuestion h3 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin: 0;
+}
+
+.userQuestion h2 {
+    padding: 0;
+    margin: 0;
+}
+
+/* Answers + Activity Log */
+
+.answers {
+    width: 70%;
+    border-right: 1px solid black;
+}
+
+.activityLog h2 {
+    margin: 0px;
+    border-bottom: 1px solid #620010;
+    padding: 2.5px;
+    text-align: center;
+}
+
+.activityLog {
+    margin: 0 50px;
+}
+
+.answers h2 {
+    margin: 0 auto;
+    border-bottom: 1px solid #620010;
+    width: 15%;
+    padding: 2.5px;
+    text-align: center;
+}
+
+.answers ul {
+    list-style-type: none;
+}
+
+
+.userAnswer {
+    float: right;
+    border: 1px solid #620010;
+    padding: 5px;
+    margin: 10px;
+}
+
+.userAnswer img {
+    margin: 0 auto;
+    float: left;
+}
+
+.userAnswer h4 {
+    padding: 15px;
+    margin: 0;
+    float: left;
+}
+
+hr {
+    margin: 10px;
+}
+
+/* Form */
+
+form {
+    margin: 0 auto;
+    width: 30%;
+    border: 1px solid #620010;
+    padding: 10px;
+    box-shadow: 7px 7px 17px -6px rgba(98,0,16,1);
+}
+
+form h2 {
+    margin: 0px;
+    border-bottom: 1px solid #620010;
+    padding: 2.5px;
+    text-align: center;
+}
+
+form h3 {
+    padding: 5px;
+    margin: 0px;
+}
+
+form input, form textarea {
+    margin: 5px;
+    width: 100%;
+}
+
+.buttons {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buttons button {
+    padding: 5px;
+    margin: 10px 10px;
+}
+
+/* Error Messages */
+
+.error {
+    color: #aa0000;
+}
+
+.invalid {
+    border: 1px solid #aa0000;
+}

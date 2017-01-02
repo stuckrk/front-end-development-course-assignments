@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Assignment 18</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="main-body">
+            <header>
+                <div class="logo">
+                    <img src="http://placehold.it/350x100"/>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="fl"><a href="#">Home</a></li>
+                        <li class="fl"><a href="#">Q &amp; A</a></li>
+                        <li class="socialMedia"><a href="https://twitter.com/HalluxInc" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li class="socialMedia"><a href="https://www.facebook.com/HalluxInc/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                    <div class="clear"></div>
+                    </ul>
+                </nav>
+            </header>
+            <article>
+                <div class="question">
+                    <h1>This is a Question</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget consectetur augue, et ultricies arcu. Nullam sed eros at nulla tincidunt pulvinar posuere eget ligula. Aenean tempus enim a arcu consectetur dapibus. Nullam sit amet convallis metus. Vestibulum sed mi dui. In massa ligula, blandit at urna a, ullamcorper interdum tellus. Quisque non nibh sed purus pretium ultricies vel ultrices elit. Proin ut tempor dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                </div>
+                <div class="userQuestion">
+                    <h2>Asked By:</h2>
+                    <img src="Screen%20Shot%202016-12-15%20at%206.34.06%20PM.png"/>
+                    <h3>Daniel Worthy</h3>
+                </div>
+            </article>
+            <div class="clear"></div>
+            <hr>
+            <div class="fl answers">
+                <h2>Answers</h2>
+                <ul id="append">
+                    <li>
+                        <p>Fusce auctor nulla felis, fringilla ornare risus blandit at. Donec ut molestie dolor, non pretium est. Donec a pretium nisi. Sed ac mi euismod, aliquam odio eu, ultricies ligula. Nulla quis magna at justo pulvinar pulvinar vitae sed lorem. Nullam nunc ante, fringilla dictum iaculis in, cursus vulputate diam.</p>
+                        <div class="userAnswer">
+                            <img src="http://lorempixel.com/50/50/people"/>
+                            <h4>John Doe</h4>
+                        </div>
+                    </li>
+                    <div class="clear"></div>
+                    <hr>
+                    <li>
+                        <p>Sed ut ullamcorper dui. Vestibulum mi felis, interdum in volutpat et, malesuada vitae risus. Proin sit amet tristique nulla. Quisque viverra congue justo, ut imperdiet sem aliquam quis. Ut ultrices, velit nec eleifend rutrum, augue turpis ornare ex, ac tempor est felis nec arcu. Pellentesque nec lacinia nunc, sed scelerisque ante. Ut porta sem non semper finibus.</p>
+                        <div class="userAnswer">
+                            <img src="http://lorempixel.com/50/50/people/2"/>
+                            <h4>Jane Doe</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="fl activityLog">
+                <h2>Activity Log</h2>
+                <ul id="prepend">
+                    <li>Jane Doe responded</li>
+                    <li>John Doe responded</li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <hr>
+            <form>
+                <div class = "formElements">
+                    <h2>Submit Your Answer</h2><br>
+                    <div class="inputGroup">
+                        <label for="yourName"><h3>Your Name</h3></label>
+                        <input type="text" id="yourName" name="yourName">
+                        <span class="error requiredMsg">Your name is required.</span>
+                    </div>
+                    <div class="inputGroup">
+                        <label for="yourAnswer"><h3>Your Answer</h3></label>
+                        <textarea id="yourAnswer" name="yourAnswer"></textarea>
+                        <span class="error requiredMsg">Your answer is required.</span>
+                    </div><br>
+                    <div class="buttons">
+                        <button id="btnSubmit" type="button">Submit</button>
+                        <button id="btnReset" type="reset">Reset</button>
+                    </div>
+                    
+                </div>
+                <div class = "newForm">
+                        <h2>Thank you for your answer!</h2>
+                        <div class = "buttons">
+                            <button id="btnNewForm" type="button">Add Another Answer</button>  
+                        </div>         
+                    </div>
+            </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="scripts/main.js"></script>
+    </body>
+
+</html>
