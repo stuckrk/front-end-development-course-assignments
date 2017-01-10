@@ -110,3 +110,65 @@ footer>nav>a {
     padding: 0 10px;
     display:block;
 }
+
+@media screen and (min-width:480px) and (max-width: 650px){
+
+    .main-header nav a, footer>nav>a {
+        display: inline-block;
+
+    }
+
+
+}
+
+@media screen and (min-width:650px){
+    .main-header nav {
+        border-radius: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .main-header nav a, footer>nav>a {
+        display: inline-block;
+
+    }
+
+    footer nav a {
+        float: right;
+    }
+
+    footer h3 {
+        float: left;
+    }
+
+    .hero {
+        max-width: 66.666%;
+    }
+
+    .article-list article img {
+        max-width: 50%;
+        float: left;
+    }
+
+    .article-list header, .article-list p{
+        max-width: 50%;
+        float: left;
+    }
+
+    .article-list article{
+        clear: both;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (min-width:960px){
+    .article-list {
+        max-width: 66.666%;
+        float: left;
+    }
+    section aside {
+        max-width: 33.333%;
+        float: right;
+    }
+}

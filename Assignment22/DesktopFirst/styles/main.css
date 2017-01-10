@@ -3,11 +3,6 @@ ul {
     padding: 0
 }
 
-a,
-nav li {
-    display: inline-block
-}
-
 * {
     box-sizing: border-box
 }
@@ -49,22 +44,64 @@ nav li a {
     padding-right: 20px
 }
 
-footer nav,
-header nav,
-section {
-    width: 960px;
-    margin: 0 auto
-}
-
-.image-gallery li {
-    float: left;
-    text-align: center;
-    width: 25%
-}
-
-
 .image-gallery li:hover img {
     border: 2px solid #333;
     display: block;
     margin: 0 auto
+}
+
+footer nav,
+header nav,
+section {
+    width: 100%;
+    margin: 0 auto
+}
+
+a,
+nav li {
+    display: inline-block
+} 
+
+@media screen and (min-width:650px){
+    .image-gallery li {
+        float: left;
+        text-align: center;
+        width: 25%
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width: 650px){
+    .image-gallery li {
+        float: left;
+        text-align: center;
+        width: 33.333%
+    }
+}
+
+@media screen and (max-width:480px){
+    .image-gallery li {
+        float: left;
+        text-align: center;
+        width: 50%
+    }
+
+    nav ul {
+        margin: 0px;
+    }
+
+    a,
+    nav li {
+        display: block;
+        
+    }
+
+    nav li {
+        border: 1px solid white;
+    }
+
+    nav ul {
+        padding: 0px;
+    }
+
 }
