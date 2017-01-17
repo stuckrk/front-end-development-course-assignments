@@ -1,0 +1,210 @@
+/* Table of Contents
+
+        -------- Rachel Stuckey ----------
+
+        1.0 - Mobile 
+        1.1 - Nav 
+
+                
+        2.0 - Tablet 
+        2.1- Nav 
+
+        3.0 - Desktop 
+        3.1 - Nav 
+    
+ 
+*/
+
+
+/* ------- Planning CSS ----- */
+
+.borderrow {
+    border: 2px solid black;
+}
+
+.border {
+    border: 1px solid black;
+    background: lightgray;
+    padding: 2px;
+    margin: 1px;
+}
+
+
+/* ----- end planning CSS ---- */
+
+
+/* ------- 1.0 Mobile ------- */
+
+* {
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+.col {
+    display: block;
+    float: left;
+}
+
+.sm-1 {
+    width: 7%;
+}
+
+.sm-2 {
+    width: 16%;
+}
+
+.sm-3 {
+    width: 25%;
+}
+
+.sm-4 {
+    width: 33%;
+}
+
+.sm-5 {
+    width: 41%;
+}
+
+.sm-6 {
+    width: 50%;
+}
+
+.sm-7 {
+    width: 57%;
+}
+
+.sm-8 {
+    width: 66%;
+}
+
+.sm-9 {
+    width: 75%;
+}
+
+.sm-10 {
+    width: 82%;
+}
+
+.sm-11 {
+    width: 90%;
+}
+
+.sm-12 {
+    width: 100%;
+}
+
+
+
+/* ------- 1.1 Nav ------- */
+
+
+/* ------- 2.0 Tablet ------- */
+
+@media screen and (min-width:768px) {
+    .md-1 {
+        width: 7%;
+    }
+    .md-2 {
+        width: 16%;
+    }
+    .md-3 {
+        width: 25%;
+    }
+    .md-4 {
+        width: 33%;
+    }
+    .md-5 {
+        width: 41%;
+    }
+    .md-6 {
+        width: 50%;
+    }
+    .md-7 {
+        width: 57%;
+    }
+    .md-8 {
+        width: 66%;
+    }
+    .md-9 {
+        width: 75%;
+    }
+    .md-10 {
+        width: 82%;
+    }
+    .md-11 {
+        width: 90%;
+    }
+    .md-12 {
+        width: 100%;
+    }
+    /* ------- 2.1 Nav ------- */
+}
+
+
+/* ------- 3.0 Desktop ------- */
+
+@media screen and (min-width:992px) {
+    .lg-1 {
+        width: 7%;
+    }
+    .lg-2 {
+        width: 16%;
+    }
+    .lg-3 {
+        width: 25%;
+    }
+    .lg-4 {
+        width: 33%;
+    }
+    .lg-5 {
+        width: 41%;
+    }
+    .lg-6 {
+        width: 50%;
+    }
+    .lg-7 {
+        width: 57%;
+    }
+    .lg-8 {
+        width: 66%;
+    }
+    .lg-9 {
+        width: 75%;
+    }
+    .lg-10 {
+        width: 82%;
+    }
+    .lg-11 {
+        width: 90%;
+    }
+    .lg-12 {
+        width: 100%;
+    }
+    /* ------- 3.1 Nav ------- */
+}
